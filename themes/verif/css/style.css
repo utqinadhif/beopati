@@ -1,0 +1,51 @@
+@import url('../../default/bootstrap/css/bootstrap.min.css');
+@import url('../../default/font-awesome/css/font-awesome.min.css');
+
+.no_radius,
+.panel,
+.btn,
+.pagination a,
+.dataTables_length select {
+	border-radius: 0 !important;
+}
+
+.iframe {
+	border: 0;
+	width: 100%;
+	height: 500px;
+}
+.red {
+	color: red;
+}
+#loading {
+	display: none;
+	position: fixed;
+	z-index: 1051;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: #ffffffcc;
+}
+#loading img {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	top: 150px;
+}
+#loading #caption {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	top: 250px;
+}
+.footer {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+	color: #9d9d9d;
+	background-color: #101010;
+	z-index: 4;
+}

@@ -1,0 +1,18 @@
+RewriteEngine On
+
+# all path to index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-s
+RewriteRule (.*) index.php/$1 [L]
+
+# force path image to root/image
+RewriteRule image/files/(.*)$ image/files/$1 [L]
+
+# keep .php OR listing file on directory inside themes
+RewriteCond %{REQUEST_FILENAME} !kcfinder
+RewriteRule ^themes(.*\.php|.*?/)$ index.php [L]
+
+<IfModule mod_env.c>
+  SetEnv CI_ENV development
+</IfModule>
