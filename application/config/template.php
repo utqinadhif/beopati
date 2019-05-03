@@ -56,7 +56,7 @@ $config['title_separator'] = ' - ';
 |
 */
 
-$config['layout'] = 't_default';
+$config['layout'] = 'layout_default';
 
 /*
 |--------------------------------------------------------------------------
@@ -71,7 +71,7 @@ $config['layout'] = 't_default';
 |
 */
 
-$config['theme'] = 'verif';
+$config['theme'] = 'beopati';
 
 /*
 |--------------------------------------------------------------------------

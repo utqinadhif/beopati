@@ -76,11 +76,11 @@ $query_builder = TRUE;
 $db = array(
 	'medisimed'	=> array(
 		'dsn'          => '',
-		'hostname'     => 'db.rsipati.com',
-		'username'     => 'sa',
-		'password'     => 'RSIPATI',
-		'database'     => 'RSIPATI',
-		'dbdriver'     => 'sqlsrv',
+		'hostname'     => 'localhost',
+		'username'     => 'root',
+		'password'     => '',
+		'database'     => 'beopati',
+		'dbdriver'     => 'mysqli',
 		'dbprefix'     => '',
 		'pconnect'     => FALSE,
 		'db_debug'     => (ENVIRONMENT !== 'production'),

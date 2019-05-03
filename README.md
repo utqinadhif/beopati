@@ -1,2 +1,2 @@
-# verif
-verif rsi -> bpjs
+# beopati
+CMS untuk pengembangan website dan blog

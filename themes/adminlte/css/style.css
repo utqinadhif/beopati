@@ -1,0 +1,11 @@
+@import url('../../default/bootstrap/css/bootstrap.min.css');
+@import url('../../default/font-awesome/css/font-awesome.min.css');
+
+@import url('../src/ionicons/css/ionicons.min.css');
+@import url('../src/adminlte2/css/AdminLTE.min.css');
+@import url('../src/adminlte2/css/skins/_all-skins.min.css');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic');
+
+.no_radius {
+	border-radius: 0 !important;
+}
